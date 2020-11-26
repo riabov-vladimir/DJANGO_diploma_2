@@ -1,1 +1,1004 @@
-[{"model": "contenttypes.contenttype", "pk": 1, "fields": {"app_label": "admin", "model": "logentry"}}, {"model": "contenttypes.contenttype", "pk": 2, "fields": {"app_label": "auth", "model": "permission"}}, {"model": "contenttypes.contenttype", "pk": 3, "fields": {"app_label": "auth", "model": "group"}}, {"model": "contenttypes.contenttype", "pk": 4, "fields": {"app_label": "contenttypes", "model": "contenttype"}}, {"model": "contenttypes.contenttype", "pk": 5, "fields": {"app_label": "sessions", "model": "session"}}, {"model": "contenttypes.contenttype", "pk": 6, "fields": {"app_label": "shop", "model": "category"}}, {"model": "contenttypes.contenttype", "pk": 7, "fields": {"app_label": "shop", "model": "product"}}, {"model": "contenttypes.contenttype", "pk": 8, "fields": {"app_label": "shop", "model": "article"}}, {"model": "contenttypes.contenttype", "pk": 9, "fields": {"app_label": "orders", "model": "order"}}, {"model": "contenttypes.contenttype", "pk": 10, "fields": {"app_label": "orders", "model": "orderitem"}}, {"model": "contenttypes.contenttype", "pk": 11, "fields": {"app_label": "users", "model": "customuser"}}, {"model": "sessions.session", "pk": "xlvafu4i0v1uw0f7tni1nzm867yx036q", "fields": {"session_data": "YThhODg3YTJmYzg0NmZhMTNmYjY3YzBhYmQ3OTYxZjQ4YjMzMTM0Mjp7ImNhcnQiOnt9LCJfYXV0aF91c2VyX2lkIjoiMyIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9oYXNoIjoiMDM1MjA5MjVkOWJmMzI2NGZmZjU4NjQxNTFjODVjZWZmMDYwNzY1OCJ9", "expire_date": "2020-12-08T12:22:28.309Z"}}, {"model": "shop.category", "pk": 1, "fields": {"name": "\u041a\u0440\u0443\u043f\u044b", "slug": "krupy"}}, {"model": "shop.category", "pk": 2, "fields": {"name": "\u041c\u0430\u043a\u0430\u0440\u043e\u043d\u043d\u044b\u0435 \u0438\u0437\u0434\u0435\u043b\u0438\u044f", "slug": "makaronnye-izdeliya"}}, {"model": "shop.category", "pk": 3, "fields": {"name": "\u041c\u043e\u043b\u043e\u0447\u043d\u044b\u0435 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u044b", "slug": "molochnye-produkty"}}, {"model": "shop.product", "pk": 1, "fields": {"category": 1, "name": "\u041f\u0448\u0435\u043d\u043e \u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041c\u0438\u0441\u0442\u0440\u0430\u043b\u044c", "slug": "psheno-zolotoe-mistral", "image": "products/2020/11/24/\u0411\u0435\u0437_\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f.jpg", "description": "\u0417\u043e\u043b\u043e\u0442\u043e\u0435 \u043f\u0448\u0435\u043d\u043e \u041c\u0438\u0441\u0442\u0440\u0430\u043b\u044c \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u043e \u0438\u0437 \u043e\u0442\u0431\u043e\u0440\u043d\u044b\u0445 \u0437\u0435\u0440\u0435\u043d \u043f\u0440\u043e\u0441\u0430, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043f\u0440\u043e\u0445\u043e\u0434\u044f\u0442 \u043c\u043d\u043e\u0433\u043e\u0441\u0442\u0443\u043f\u0435\u043d\u0447\u0430\u0442\u0443\u044e \u043e\u0447\u0438\u0441\u0442\u043a\u0443. \u0418\u043c\u0435\u0435\u0442 \u043e\u0434\u043d\u043e\u0440\u043e\u0434\u043d\u044b\u0439 \u0441\u0432\u0435\u0442\u043b\u043e-\u0436\u0435\u043b\u0442\u044b\u0439 \u0446\u0432\u0435\u0442, \u043f\u0440\u0438\u044f\u0442\u043d\u044b\u0439 \u0430\u0440\u043e\u043c\u0430\u0442 \u0438 \u043d\u0435\u043f\u043e\u0432\u0442\u043e\u0440\u0438\u043c\u044b\u0439 \u0432\u043a\u0443\u0441.\r\n\r\n\u0417\u043e\u043b\u043e\u0442\u043e\u0435 \u043f\u0448\u0435\u043d\u043e \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u043e \u043f\u043e\u0434\u0445\u043e\u0434\u0438\u0442 \u0434\u043b\u044f \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043c\u043e\u043b\u043e\u0447\u043d\u043e\u0439 \u043a\u0430\u0448\u0438, \u0433\u0430\u0440\u043d\u0438\u0440\u043e\u0432 \u0438 \u0434\u0435\u0441\u0435\u0440\u0442\u043e\u0432. \u0418\u0437\u0432\u0435\u0441\u0442\u043d\u043e, \u0447\u0442\u043e \u0447\u0435\u043c \u044f\u0440\u0447\u0435 \u0446\u0432\u0435\u0442 \u043f\u0448\u0435\u043d\u0430, \u0442\u0435\u043c \u043e\u043d\u043e \u0432\u043a\u0443\u0441\u043d\u0435\u0435 \u0438 \u043f\u043e\u043b\u0435\u0437\u043d\u0435\u0435. \u041f\u0448\u0435\u043d\u043d\u0430\u044f \u043a\u0440\u0443\u043f\u0430 \u041c\u0438\u0441\u0442\u0440\u0430\u043b\u044c \u044f\u0440\u043a\u043e\u0439 \u0436\u0435\u043b\u0442\u043e\u0439 \u043e\u043a\u0440\u0430\u0441\u043a\u0438 - \u0446\u0435\u043d\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a \u043a\u043b\u0435\u0442\u0447\u0430\u0442\u043a\u0438 \u0438 \u043b\u0435\u0433\u043a\u043e\u0443\u0441\u0432\u0430\u0438\u0432\u0430\u0435\u043c\u044b\u0445 \u0440\u0430\u0441\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u0431\u0435\u043b\u043a\u043e\u0432. \u041f\u0440\u0438 \u0432\u0430\u0440\u043a\u0435 \u0437\u0435\u0440\u043d\u0430 \u043f\u0440\u0438\u043e\u0431\u0440\u0435\u0442\u0430\u044e\u0442 \u043d\u0435\u0436\u043d\u043e-\u0436\u0435\u043b\u0442\u044b\u0439 \u043e\u0442\u0442\u0435\u043d\u043e\u043a \u0438 \u0441\u0442\u0430\u043d\u043e\u0432\u044f\u0442\u0441\u044f \u043c\u044f\u0433\u043a\u0438\u043c\u0438, \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u044f \u0441\u0432\u043e\u044e \u0444\u043e\u0440\u043c\u0443.\r\n\r\n\u0423\u0432\u0430\u0436\u0430\u0435\u043c\u044b\u0435 \u043a\u043b\u0438\u0435\u043d\u0442\u044b! \u041e\u0431\u0440\u0430\u0449\u0430\u0435\u043c \u0432\u0430\u0448\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0442\u043e, \u0447\u0442\u043e \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0430 \u043c\u043e\u0436\u0435\u0442 \u0438\u043c\u0435\u0442\u044c \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0438\u0434\u043e\u0432 \u0434\u0438\u0437\u0430\u0439\u043d\u0430. \u041f\u043e\u0441\u0442\u0430\u0432\u043a\u0430 \u043e\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0432 \u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u0438 \u043e\u0442 \u043d\u0430\u043b\u0438\u0447\u0438\u044f \u043d\u0430 \u0441\u043a\u043b\u0430\u0434\u0435.\r\n\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f\r\n\u0412 \u0441\u0443\u0445\u043e\u043c \u043c\u0435\u0441\u0442\u0435", "price": "117.00", "available": true, "created": "2020-11-24T12:04:15.494Z", "updated": "2020-11-24T12:04:15.494Z"}}, {"model": "shop.product", "pk": 2, "fields": {"category": 1, "name": "\u041a\u0440\u0443\u043f\u0430 \u043c\u0430\u043d\u043d\u0430\u044f \u041c\u0438\u0441\u0442\u0440\u0430\u043b\u044c", "slug": "krupa-mannaya-mistral", "image": "products/2020/11/24/2b797fe54ac2414ab59418042026b1a7.jpg", "description": "\u041a\u0440\u0443\u043f\u0430 \u043c\u0430\u043d\u043d\u0430\u044f \u043d\u0435\u0436\u043d\u0430\u044f \u0438 \u0441\u043b\u0430\u0434\u043a\u043e\u0432\u0430\u0442\u0430\u044f \u043d\u0430 \u0432\u043a\u0443\u0441, \u043e\u043d\u0430 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0441\u044f \u0434\u043b\u044f \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043c\u043e\u043b\u043e\u0447\u043d\u043e\u0439 \u043a\u0430\u0448\u0438, \u0437\u0430\u043f\u0435\u043a\u0430\u043d\u043e\u043a, \u0434\u0435\u0441\u0435\u0440\u0442\u043e\u0432, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u043f\u0430\u043d\u0438\u0440\u043e\u0432\u043a\u0438.\r\n1. \u041f\u043e\u043c\u0435\u0441\u0442\u0438\u0442\u0435 \u043a\u0440\u0443\u043f\u0443 \u0432 \u043a\u0430\u0441\u0442\u0440\u044e\u043b\u044e \u0441 \u043a\u0438\u043f\u044f\u0449\u0438\u043c \u043c\u043e\u043b\u043e\u043a\u043e\u043c \u0432 \u0441\u043e\u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0438 1:6.\r\n2. \u0412\u0430\u0440\u0438\u0442\u0435 \u043d\u0430 \u0443\u043c\u0435\u0440\u0435\u043d\u043d\u043e\u043c \u043e\u0433\u043d\u0435 2-3 \u043c\u0438\u043d\u0443\u0442\u044b \u0434\u043e \u0437\u0430\u0433\u0443\u0441\u0442\u0435\u043d\u0438\u044f, \u043d\u0435\u043f\u0440\u0435\u0440\u044b\u0432\u043d\u043e \u043f\u043e\u043c\u0435\u0448\u0438\u0432\u0430\u044f.\r\n3. \u0421\u043d\u0438\u043c\u0438\u0442\u0435 \u0441 \u043e\u0433\u043d\u044f \u0438 \u0434\u0430\u0439\u0442\u0435 \u043d\u0430\u0441\u0442\u043e\u044f\u0442\u044c\u0441\u044f 10-15 \u043c\u0438\u043d\u0443\u0442 \u0441 \u0437\u0430\u043a\u0440\u044b\u0442\u043e\u0439 \u043a\u0440\u044b\u0448\u043a\u043e\u0439.\r\n\r\n\r\n\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f\r\n\u0412 \u0441\u0443\u0445\u043e\u043c \u043f\u0440\u043e\u0445\u043b\u0430\u0434\u043d\u043e\u043c \u043c\u0435\u0441\u0442\u0435", "price": "56.00", "available": true, "created": "2020-11-24T12:05:41.557Z", "updated": "2020-11-24T12:05:41.557Z"}}, {"model": "shop.product", "pk": 3, "fields": {"category": 2, "name": "\u0421\u043f\u0430\u0433\u0435\u0442\u0442\u0438 Barilla Spaghetti \u21165", "slug": "spagetti-barilla-spaghetti-5", "image": "products/2020/11/24/c0df48079c194d749de2310ffbc34c1b.jpg", "description": "\u0421\u043f\u0430\u0433\u0435\u0442\u0442\u0438 \u21165 - \u0441\u0438\u043c\u0432\u043e\u043b \u0438\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u043e\u0439 \u043a\u0443\u0445\u043d\u0438, \u0431\u0435\u0437 \u043f\u0440\u0435\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u044f \u043e\u0434\u0438\u043d \u0438\u0437 \u0441\u0430\u043c\u044b\u0445 \u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0445 \u0432\u0438\u0434\u043e\u0432 \u043f\u0430\u0441\u0442\u044b. \u0421\u0432\u043e\u0435 \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043f\u0430\u0441\u0442\u0430 \u043f\u043e\u043b\u0443\u0447\u0438\u043b\u0430 \u0437\u0430 \u0432\u043d\u0435\u0448\u043d\u0435\u0435 \u0441\u0445\u043e\u0434\u0441\u0442\u0432\u043e \u0441 \u0442\u043e\u043d\u043a\u0438\u043c \u0448\u043f\u0430\u0433\u0430\u0442\u043e\u043c (\u0443\u043c\u0435\u043d\u044c\u0448\u0438\u0442\u0435\u043b\u044c\u043d\u043e- \u043b\u0430\u0441\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u0444\u043e\u0440\u043c\u0430 \u043e\u0442 \u0438\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u043e\u0433\u043e spago).\r\n\r\n\u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u043e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0439 \u0442\u043e\u043b\u0449\u0438\u043d\u0435, \u0421\u043f\u0430\u0433\u0435\u0442\u0442\u0438 \u21165 \u0441\u0447\u0438\u0442\u0430\u0435\u0442\u0441\u044f \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u044b\u043c \u0432\u0438\u0434\u043e\u043c \u043f\u0430\u0441\u0442\u044b, \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u043e \u0441\u043e\u0447\u0435\u0442\u0430\u0435\u0442\u0441\u044f \u043a\u0430\u043a \u0441 \u0433\u0443\u0441\u0442\u044b\u043c\u0438 \u0442\u043e\u043c\u0430\u0442\u043d\u044b\u043c\u0438, \u0442\u0430\u043a \u0438 \u0441 \u043d\u0435\u0436\u043d\u044b\u043c\u0438 \u0441\u043b\u0438\u0432\u043e\u0447\u043d\u044b\u043c\u0438 \u0441\u043e\u0443\u0441\u0430\u043c\u0438.\r\n\r\n\u0423\u0432\u0430\u0436\u0430\u0435\u043c\u044b\u0435 \u043a\u043b\u0438\u0435\u043d\u0442\u044b! \u041e\u0431\u0440\u0430\u0449\u0430\u0435\u043c \u0432\u0430\u0448\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0442\u043e, \u0447\u0442\u043e \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0430 \u043c\u043e\u0436\u0435\u0442 \u0438\u043c\u0435\u0442\u044c \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0438\u0434\u043e\u0432 \u0434\u0438\u0437\u0430\u0439\u043d\u0430. \u041f\u043e\u0441\u0442\u0430\u0432\u043a\u0430 \u043e\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0432 \u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u0438 \u043e\u0442 \u043d\u0430\u043b\u0438\u0447\u0438\u044f \u043d\u0430 \u0441\u043a\u043b\u0430\u0434\u0435.\r\n\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f\r\n\u041f\u0440\u0438 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0435 \u0434\u043e +30`C, \u0441 \u043e\u0442\u043d\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0432\u043b\u0430\u0436\u043d\u043e\u0441\u0442\u044c\u044e \u0432\u043e\u0437\u0434\u0443\u0445\u0430 \u043d\u0435 \u0431\u043e\u043b\u0435\u0435 75%, \u0432 \u0441\u0443\u0445\u043e\u043c \u043f\u0440\u043e\u0445\u043b\u0430\u0434\u043d\u043e\u043c \u043c\u0435\u0441\u0442\u0435", "price": "75.00", "available": true, "created": "2020-11-24T12:06:58.869Z", "updated": "2020-11-24T12:06:58.869Z"}}, {"model": "shop.product", "pk": 4, "fields": {"category": 2, "name": "\u041f\u0435\u043d\u043d\u0435 Barilla Penne Rigate", "slug": "penne-barilla-penne-rigate", "image": "products/2020/11/24/ca638f49393f4301be7d92d5afc85884.jpg", "description": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0434\u0438\u0430\u043c\u0435\u0442\u0440 \u0438 \u0440\u0435\u0431\u0440\u0438\u0441\u0442\u043e\u0441\u0442\u044c \u041f\u0435\u043d\u043d\u0435 \u0420\u0438\u0433\u0430\u0442\u0435 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0442 \u0438\u043c \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u043f\u0440\u043e\u043f\u0438\u0442\u0430\u0442\u044c\u0441\u044f \u0441\u043e\u0443\u0441\u043e\u043c! \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u043f\u0435\u043d\u043d\u0435 \u0441 \u043c\u044f\u0441\u043d\u044b\u043c\u0438 \u0438 \u043e\u0432\u043e\u0449\u043d\u044b\u043c\u0438 \u0441\u043e\u0443\u0441\u0430\u043c\u0438 \u0441 \u043a\u0443\u0441\u043e\u0447\u043a\u0430\u043c\u0438 \u043c\u044f\u0441\u0430 \u0438 \u043e\u0432\u043e\u0449\u0435\u0439.\r\n\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f\r\n\u041f\u0440\u0438 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0435 \u0434\u043e +30`C, \u0441 \u043e\u0442\u043d\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0432\u043b\u0430\u0436\u043d\u043e\u0441\u0442\u044c\u044e \u0432\u043e\u0437\u0434\u0443\u0445\u0430 \u043d\u0435 \u0431\u043e\u043b\u0435\u0435 75%, \u0432 \u0441\u0443\u0445\u043e\u043c \u043f\u0440\u043e\u0445\u043b\u0430\u0434\u043d\u043e\u043c \u043c\u0435\u0441\u0442\u0435", "price": "86.00", "available": true, "created": "2020-11-24T12:08:40.555Z", "updated": "2020-11-24T12:08:40.555Z"}}, {"model": "shop.product", "pk": 5, "fields": {"category": 3, "name": "\u0419\u043e\u0433\u0443\u0440\u0442 Epica \u0412\u0438\u0448\u043d\u044f \u0438 \u0447\u0435\u0440\u0435\u0448\u043d\u044f, 4,8 %", "slug": "jogurt-epica-vishnya-i-chereshnya-48", "image": "products/2020/11/24/3312235H.jpg", "description": "\u0419\u043e\u0433\u0443\u0440\u0442 Epica \u043d\u0430\u0442\u0443\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0441 \u0432\u0438\u0448\u043d\u0435\u0439 \u0438 \u0447\u0435\u0440\u0435\u0448\u043d\u0435\u0439 4,8% 130\u0433. \u041c\u0430\u0441\u0441\u043e\u0432\u0430\u044f \u0434\u043e\u043b\u044f \u0436\u0438\u0440\u0430 4,8%. \u0422\u043e\u043b\u044c\u043a\u043e \u043d\u0430\u0442\u0443\u0440\u0430\u043b\u044c\u043d\u044b\u0435 \u0438\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442\u044b \u0432\u044b\u0441\u043e\u043a\u043e\u0433\u043e \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430.\r\n\r\n\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f\r\n2\u00b0C \u0434\u043e 6\u00b0C", "price": "45.00", "available": true, "created": "2020-11-24T12:09:58.749Z", "updated": "2020-11-24T12:09:58.749Z"}}, {"model": "shop.product", "pk": 6, "fields": {"category": 3, "name": "\u0421\u044b\u0440 Dolce Granto, \u043f\u0430\u0440\u043c\u0435\u0437\u0430\u043d", "slug": "syr-dolce-granto-parmezan", "image": "products/2020/11/24/3380383H.jpg", "description": "\"\u041a\u043e\u0440\u043e\u043b\u044c \u0441\u044b\u0440\u043e\u0432 \u0438 \u0441\u044b\u0440 \u043a\u043e\u0440\u043e\u043b\u0435\u0439\". 270 \u0433 \u2013 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u0441 \u0434\u043b\u044f \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043b\u044e\u0431\u0438\u043c\u044b\u0445 \u0431\u043b\u044e\u0434 \u0434\u043e\u043c\u0430. \u041f\u0430\u0440\u043c\u0435\u0437\u0430\u043d Dolce Granto \u043f\u0440\u0438\u0434\u0430\u0441\u0442 \u0431\u043b\u044e\u0434\u0430\u043c \u0438 \u043d\u0430\u043f\u0438\u0442\u043a\u0430\u043c \u043d\u043e\u0432\u043e\u0435 \u0437\u0432\u0443\u0447\u0430\u043d\u0438\u0435.\r\n\r\n\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f\r\n\u041f\u0440\u0438 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0435 \u043e\u0442 2 \u0434\u043e 6\u0421.", "price": "390.00", "available": true, "created": "2020-11-24T12:11:33.230Z", "updated": "2020-11-24T12:11:33.230Z"}}, {"model": "shop.product", "pk": 7, "fields": {"category": 3, "name": "\u0410\u0439\u0440\u0430\u043d \u0433\u0430\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439", "slug": "ajran-gazirovannyj", "image": "products/2020/11/24/3373858H.jpg", "description": "\u0410\u0439\u0440\u0430\u043d - \u0440\u043e\u0434\u043e\u043c \u044d\u0442\u043e\u0442 \u043d\u0430\u043f\u0438\u0442\u043e\u043a \u0438\u0437 \u041a\u0430\u0431\u0430\u0440\u0434\u0438\u043d\u043e-\u0411\u0430\u043b\u043a\u0430\u0440\u0438\u0438 \u0438 \u0427\u0435\u0440\u043a\u0435\u0441\u0441\u0438\u0438. \u0415\u0433\u043e \u0448\u0438\u0440\u043e\u043a\u043e \u043f\u0440\u0438\u043c\u0435\u043d\u044f\u044e\u0442 \u0432 \u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0439 \u043a\u0443\u0445\u043d\u0435 \u0441\u0440\u0435\u0434\u043d\u0435\u0430\u0437\u0438\u0430\u0442\u0441\u043a\u0438\u0445 \u0438 \u043a\u0430\u0432\u043a\u0430\u0437\u0441\u043a\u0438\u0445 \u043d\u0430\u0440\u043e\u0434\u043e\u0432.\r\n\u0418\u0437\u0432\u0435\u0441\u0442\u0435\u043d \u043d\u0430\u043f\u0438\u0442\u043e\u043a \u0435\u0449\u0435 \u0441 5-2 \u0432\u0435\u043a\u043e\u0432 \u0434\u043e \u043d\u0430\u0448\u0435\u0439 \u044d\u0440\u044b, \u043a\u043e\u0433\u0434\u0430 \u043e\u043d \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e \u043b\u044e\u0431\u0438\u043c \u0431\u044b\u043b \u0436\u0438\u0442\u0435\u043b\u044f\u043c\u0438 \u0434\u0440\u0435\u0432\u043d\u0435\u0433\u0440\u0435\u0447\u0435\u0441\u043a\u043e\u0439 \u041a\u0435\u0440\u043a\u0438\u043d\u0438\u0442\u0438\u0434\u044b. \u0421\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0435\u043c \u0440\u0435\u0446\u0435\u043f\u0442 \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u0430\u0439\u0440\u0430\u043d\u0430 \u043f\u043e\u043f\u0430\u043b \u043a \u043a\u043e\u0447\u0435\u0432\u044b\u043c \u043f\u043b\u0435\u043c\u0435\u043d\u0430\u043c \u0441\u043a\u0438\u0444\u0430\u043c - \u044f\u0440\u044b\u043c \u0432\u0440\u0430\u0433\u0430\u043c \u0433\u0440\u0435\u043a\u043e\u0432.\r\n\u0410\u0439\u0440\u0430\u043d \u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u044e\u0442 \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u043f\u0440\u043e\u0445\u043b\u0430\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u043d\u0430\u043f\u0438\u0442\u043a\u0430 \u0432 \u043b\u0435\u0442\u043d\u0438\u0439 \u0437\u043d\u043e\u0439, \u0434\u043b\u044f \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u044f \u0430\u043f\u043f\u0435\u0442\u0438\u0442\u0430, \u0438 \u043a\u0430\u043a \u043e\u0441\u043d\u043e\u0432\u0443 \u0434\u043b\u044f \u0445\u043e\u043b\u043e\u0434\u043d\u044b\u0445 \u0441\u0443\u043f\u043e\u0432. \u042d\u0442\u043e \u043d\u0438\u0437\u043a\u043e\u043a\u0430\u043b\u043e\u0440\u0438\u0439\u043d\u044b\u0439 \u043d\u0430\u043f\u0438\u0442\u043e\u043a, \u043d\u043e \u043f\u0440\u0438 \u044d\u0442\u043e\u043c \u043e\u043d \u043e\u0431\u043b\u0430\u0434\u0430\u0435\u0442 \u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c \u0441\u0432\u043e\u0439\u0441\u0442\u0432\u043e\u043c \u043d\u0430\u0441\u044b\u0449\u0430\u0442\u044c \u0438 \u043f\u0440\u0438\u0434\u0430\u0432\u0430\u0442\u044c \u0441\u0438\u043b\u044b \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u043c\u0443.\r\n\r\n\u0411\u0435\u043b\u043a\u0438 1,4 \u0433/100 \u0433, \u0436\u0438\u0440\u044b 1,5 \u0433/100 \u0433, \u0443\u0433\u043b\u0435\u0432\u043e\u0434\u044b 1 \u0433/100 \u0433.\r\n\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f\r\n\u0425\u0440\u0430\u043d\u0438\u0442\u044c \u043f\u0440\u0438 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0435 \u043e\u0442 +2\u00b0\u0421 \u0434\u043e +18\u00b0\u0421, \u043f\u043e\u0441\u043b\u0435 \u0432\u0441\u043a\u0440\u044b\u0442\u0438\u044f \u043e\u0442 +2\u00b0\u0421 \u0434\u043e +6\u00b0\u0421 \u043d\u0435 \u0431\u043e\u043b\u0435\u0435 2-\u0445 \u0441\u0443\u0442\u043e\u043a", "price": "63.00", "available": true, "created": "2020-11-24T12:14:49.584Z", "updated": "2020-11-24T12:14:49.584Z"}}, {"model": "shop.article", "pk": 1, "fields": {"name": "\u0415\u0433\u043e \u0432\u0435\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0437\u0430\u0432\u0442\u0440\u0430\u043a", "text": "\u0417\u0430\u0301\u0432\u0442\u0440\u0430\u043a \u2014 \u043f\u0435\u0440\u0432\u044b\u0439 \u0434\u043d\u0435\u0432\u043d\u043e\u0439 \u043f\u0440\u0438\u0451\u043c \u043f\u0438\u0449\u0438, \u043a\u0430\u043a \u043f\u0440\u0430\u0432\u0438\u043b\u043e \u2014 \u0432 \u043f\u0435\u0440\u0438\u043e\u0434 \u043e\u0442 \u0440\u0430\u0441\u0441\u0432\u0435\u0442\u0430 \u0434\u043e \u043f\u043e\u043b\u0443\u0434\u043d\u044f. \u041d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u044d\u043a\u0441\u043f\u0435\u0440\u0442\u044b \u043f\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044e \u0441\u0447\u0438\u0442\u0430\u044e\u0442, \u0447\u0442\u043e \u0437\u0430\u0432\u0442\u0440\u0430\u043a \u2014 \u0441\u0430\u043c\u044b\u0439 \u0432\u0430\u0436\u043d\u044b\u0439 \u043f\u0440\u0438\u0451\u043c \u043f\u0438\u0449\u0438, \u0435\u0433\u043e \u043f\u0440\u043e\u043f\u0443\u0441\u043a \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u0448\u0430\u043d\u0441\u044b \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f \u043e\u0436\u0438\u0440\u0435\u043d\u0438\u044f, \u0441\u0430\u0445\u0430\u0440\u043d\u043e\u0433\u043e \u0434\u0438\u0430\u0431\u0435\u0442\u0430 \u0438 \u043c\u043e\u0436\u0435\u0442 \u043f\u0440\u0438\u0432\u0435\u0441\u0442\u0438 \u043a \u0441\u0435\u0440\u0434\u0435\u0447\u043d\u043e\u043c\u0443 \u043f\u0440\u0438\u0441\u0442\u0443\u043f\u0443.", "created": "2020-11-24T12:16:49.352Z", "image": "articles/500_F_213801383_3JJxaQmPRhHUyIp5TWKAKYtmZQwpOSUH.jpg", "products": [5, 2, 1]}}, {"model": "shop.article", "pk": 2, "fields": {"name": "Viva Italia!", "text": "\u0418\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u0430\u044f \u043a\u0443\u0445\u043d\u044f \u2014 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u043a\u0443\u0445\u043d\u044f \u0418\u0442\u0430\u043b\u0438\u0438, \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0451\u043d\u043d\u0430\u044f \u0438 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u0430\u044f \u0432\u043e \u0432\u0441\u0451\u043c \u043c\u0438\u0440\u0435, \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0442\u0430\u043a\u0438\u043c \u0431\u043b\u044e\u0434\u0430\u043c, \u043a\u0430\u043a \u043f\u0438\u0446\u0446\u0430 \u0438 \u0441\u043f\u0430\u0433\u0435\u0442\u0442\u0438. \u041e\u043d\u0430 \u043e\u0447\u0435\u043d\u044c \u0440\u0430\u0437\u043d\u043e\u043e\u0431\u0440\u0430\u0437\u043d\u0430 \u0438 \u0440\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430, \u0432 \u043a\u0430\u0436\u0434\u043e\u043c \u0440\u0435\u0433\u0438\u043e\u043d\u0435 \u0435\u0441\u0442\u044c \u0441\u0432\u043e\u0438 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0431\u043b\u044e\u0434\u0430.  \u0412 \u043e\u0441\u043d\u043e\u0432\u0435 \u0438\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u043e\u0439 \u043a\u0443\u0445\u043d\u0438 \u043b\u0435\u0436\u0430\u0442 \u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438 \u0441\u043b\u043e\u0436\u0438\u0432\u0448\u0438\u0435\u0441\u044f \u043c\u043d\u043e\u0433\u043e\u0432\u0435\u043a\u043e\u0432\u044b\u0435 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u0438 \u0441 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u044b\u043c\u0438 \u0432\u043b\u0438\u044f\u043d\u0438\u044f\u043c\u0438 \u0440\u0438\u043c\u043b\u044f\u043d, \u0433\u0440\u0435\u043a\u043e\u0432, \u043b\u0430\u043d\u0433\u043e\u0431\u0430\u0440\u0434\u043e\u0432, \u0430\u0440\u0430\u0431\u043e\u0432, \u0438 \u043f\u0440\u043e\u0447\u0438\u0445 \u043d\u0430\u0440\u043e\u0434\u043e\u0432, \u043a\u043e\u0433\u0434\u0430-\u043b\u0438\u0431\u043e \u043d\u0430\u0441\u0435\u043b\u044f\u0432\u0448\u0438\u0445 \u0418\u0442\u0430\u043b\u0438\u044e \u0438\u043b\u0438 \u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0432\u0448\u0438\u0445 \u0432\u043b\u0438\u044f\u043d\u0438\u0435 \u043d\u0430 \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0435\u0451 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u044b.", "created": "2020-11-24T12:18:53.835Z", "image": "articles/ItalianskayaPasta005_SfYeoA2.jpg", "products": [4, 3, 6]}}, {"model": "orders.order", "pk": 1, "fields": {"first_name": "\u041a\u0430\u0440\u043b\u043e\u0441", "last_name": "\u0421\u0430\u043d\u0442\u0430\u043d\u0430", "email": "guitarhero@rock.rap", "address": "\u0411\u0443\u0442\u043e\u0432\u043e", "postal_code": "123456", "city": "\u041a\u0430\u0433\u0430\u043b\u044b\u043c", "created": "2020-11-24T12:20:26.753Z", "updated": "2020-11-24T12:20:26.753Z", "paid": false}}, {"model": "orders.order", "pk": 2, "fields": {"first_name": "\u041a\u0430\u0440\u043b\u043e\u0441", "last_name": "\u0421\u0430\u043d\u0442\u0430\u043d\u0430", "email": "guitarhero@rock.rap", "address": "\u0411\u0443\u0442\u043e\u0432\u043e", "postal_code": "123456", "city": "\u041a\u0430\u0433\u0430\u043b\u044b\u043c", "created": "2020-11-24T12:21:01.164Z", "updated": "2020-11-24T12:21:01.164Z", "paid": false}}, {"model": "orders.order", "pk": 3, "fields": {"first_name": "\u041a\u0430\u0440\u043b\u043e\u0441", "last_name": "\u0421\u0430\u043d\u0442\u0430\u043d\u0430", "email": "guitarhero@rock.rap", "address": "\u0411\u0443\u0442\u043e\u0432\u043e", "postal_code": "123456", "city": "\u041a\u0430\u0433\u0430\u043b\u044b\u043c", "created": "2020-11-24T12:21:54.533Z", "updated": "2020-11-24T12:21:54.533Z", "paid": false}}, {"model": "orders.orderitem", "pk": 1, "fields": {"order": 1, "product": 4, "price": "86.00", "quantity": 12}}, {"model": "orders.orderitem", "pk": 2, "fields": {"order": 2, "product": 4, "price": "86.00", "quantity": 12}}, {"model": "orders.orderitem", "pk": 3, "fields": {"order": 3, "product": 4, "price": "86.00", "quantity": 12}}, {"model": "auth.permission", "pk": 1, "fields": {"name": "Can add log entry", "content_type": 1, "codename": "add_logentry"}}, {"model": "auth.permission", "pk": 2, "fields": {"name": "Can change log entry", "content_type": 1, "codename": "change_logentry"}}, {"model": "auth.permission", "pk": 3, "fields": {"name": "Can delete log entry", "content_type": 1, "codename": "delete_logentry"}}, {"model": "auth.permission", "pk": 4, "fields": {"name": "Can view log entry", "content_type": 1, "codename": "view_logentry"}}, {"model": "auth.permission", "pk": 5, "fields": {"name": "Can add permission", "content_type": 2, "codename": "add_permission"}}, {"model": "auth.permission", "pk": 6, "fields": {"name": "Can change permission", "content_type": 2, "codename": "change_permission"}}, {"model": "auth.permission", "pk": 7, "fields": {"name": "Can delete permission", "content_type": 2, "codename": "delete_permission"}}, {"model": "auth.permission", "pk": 8, "fields": {"name": "Can view permission", "content_type": 2, "codename": "view_permission"}}, {"model": "auth.permission", "pk": 9, "fields": {"name": "Can add group", "content_type": 3, "codename": "add_group"}}, {"model": "auth.permission", "pk": 10, "fields": {"name": "Can change group", "content_type": 3, "codename": "change_group"}}, {"model": "auth.permission", "pk": 11, "fields": {"name": "Can delete group", "content_type": 3, "codename": "delete_group"}}, {"model": "auth.permission", "pk": 12, "fields": {"name": "Can view group", "content_type": 3, "codename": "view_group"}}, {"model": "auth.permission", "pk": 13, "fields": {"name": "Can add content type", "content_type": 4, "codename": "add_contenttype"}}, {"model": "auth.permission", "pk": 14, "fields": {"name": "Can change content type", "content_type": 4, "codename": "change_contenttype"}}, {"model": "auth.permission", "pk": 15, "fields": {"name": "Can delete content type", "content_type": 4, "codename": "delete_contenttype"}}, {"model": "auth.permission", "pk": 16, "fields": {"name": "Can view content type", "content_type": 4, "codename": "view_contenttype"}}, {"model": "auth.permission", "pk": 17, "fields": {"name": "Can add session", "content_type": 5, "codename": "add_session"}}, {"model": "auth.permission", "pk": 18, "fields": {"name": "Can change session", "content_type": 5, "codename": "change_session"}}, {"model": "auth.permission", "pk": 19, "fields": {"name": "Can delete session", "content_type": 5, "codename": "delete_session"}}, {"model": "auth.permission", "pk": 20, "fields": {"name": "Can view session", "content_type": 5, "codename": "view_session"}}, {"model": "auth.permission", "pk": 21, "fields": {"name": "Can add category", "content_type": 6, "codename": "add_category"}}, {"model": "auth.permission", "pk": 22, "fields": {"name": "Can change category", "content_type": 6, "codename": "change_category"}}, {"model": "auth.permission", "pk": 23, "fields": {"name": "Can delete category", "content_type": 6, "codename": "delete_category"}}, {"model": "auth.permission", "pk": 24, "fields": {"name": "Can view category", "content_type": 6, "codename": "view_category"}}, {"model": "auth.permission", "pk": 25, "fields": {"name": "Can add product", "content_type": 7, "codename": "add_product"}}, {"model": "auth.permission", "pk": 26, "fields": {"name": "Can change product", "content_type": 7, "codename": "change_product"}}, {"model": "auth.permission", "pk": 27, "fields": {"name": "Can delete product", "content_type": 7, "codename": "delete_product"}}, {"model": "auth.permission", "pk": 28, "fields": {"name": "Can view product", "content_type": 7, "codename": "view_product"}}, {"model": "auth.permission", "pk": 29, "fields": {"name": "Can add \u0421\u0442\u0430\u0442\u044c\u044f", "content_type": 8, "codename": "add_article"}}, {"model": "auth.permission", "pk": 30, "fields": {"name": "Can change \u0421\u0442\u0430\u0442\u044c\u044f", "content_type": 8, "codename": "change_article"}}, {"model": "auth.permission", "pk": 31, "fields": {"name": "Can delete \u0421\u0442\u0430\u0442\u044c\u044f", "content_type": 8, "codename": "delete_article"}}, {"model": "auth.permission", "pk": 32, "fields": {"name": "Can view \u0421\u0442\u0430\u0442\u044c\u044f", "content_type": 8, "codename": "view_article"}}, {"model": "auth.permission", "pk": 33, "fields": {"name": "Can add order", "content_type": 9, "codename": "add_order"}}, {"model": "auth.permission", "pk": 34, "fields": {"name": "Can change order", "content_type": 9, "codename": "change_order"}}, {"model": "auth.permission", "pk": 35, "fields": {"name": "Can delete order", "content_type": 9, "codename": "delete_order"}}, {"model": "auth.permission", "pk": 36, "fields": {"name": "Can view order", "content_type": 9, "codename": "view_order"}}, {"model": "auth.permission", "pk": 37, "fields": {"name": "Can add order item", "content_type": 10, "codename": "add_orderitem"}}, {"model": "auth.permission", "pk": 38, "fields": {"name": "Can change order item", "content_type": 10, "codename": "change_orderitem"}}, {"model": "auth.permission", "pk": 39, "fields": {"name": "Can delete order item", "content_type": 10, "codename": "delete_orderitem"}}, {"model": "auth.permission", "pk": 40, "fields": {"name": "Can view order item", "content_type": 10, "codename": "view_orderitem"}}, {"model": "auth.permission", "pk": 41, "fields": {"name": "Can add user", "content_type": 11, "codename": "add_customuser"}}, {"model": "auth.permission", "pk": 42, "fields": {"name": "Can change user", "content_type": 11, "codename": "change_customuser"}}, {"model": "auth.permission", "pk": 43, "fields": {"name": "Can delete user", "content_type": 11, "codename": "delete_customuser"}}, {"model": "auth.permission", "pk": 44, "fields": {"name": "Can view user", "content_type": 11, "codename": "view_customuser"}}, {"model": "users.customuser", "pk": 1, "fields": {"password": "pbkdf2_sha256$180000$MO7fwttGwjQB$YY3SxBM6emASVv18HOL9YiZIZZhwrWPoGJn33k8kif4=", "last_login": "2020-11-24T11:50:23.806Z", "is_superuser": true, "first_name": "", "last_name": "", "is_staff": true, "is_active": true, "date_joined": "2020-11-23T13:22:28.095Z", "email": "admin@admin.com", "groups": [], "user_permissions": []}}, {"model": "users.customuser", "pk": 2, "fields": {"password": "user", "last_login": null, "is_superuser": false, "first_name": "user", "last_name": "user", "is_staff": false, "is_active": true, "date_joined": "2020-11-23T13:33:29Z", "email": "user@user.com", "groups": [], "user_permissions": [36, 32, 24, 28]}}, {"model": "users.customuser", "pk": 3, "fields": {"password": "pbkdf2_sha256$180000$mL44Ty0S3mGt$yU4EHI2Dxo0f85UQTecOyNfLiZNAQY98ATSbSf196vQ=", "last_login": "2020-11-24T12:22:28.265Z", "is_superuser": false, "first_name": "", "last_name": "", "is_staff": false, "is_active": true, "date_joined": "2020-11-23T13:56:59Z", "email": "user1@user.com", "groups": [], "user_permissions": []}}, {"model": "admin.logentry", "pk": 1, "fields": {"action_time": "2020-11-23T13:35:34.869Z", "user": 1, "content_type": 11, "object_id": "2", "object_repr": "user@user.com", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 2, "fields": {"action_time": "2020-11-23T13:56:59.549Z", "user": 1, "content_type": 11, "object_id": "3", "object_repr": "user1@user.com", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 3, "fields": {"action_time": "2020-11-23T13:57:12.830Z", "user": 1, "content_type": 11, "object_id": "3", "object_repr": "user1@user.com", "action_flag": 2, "change_message": "[]"}}, {"model": "admin.logentry", "pk": 4, "fields": {"action_time": "2020-11-24T11:50:39.816Z", "user": 1, "content_type": 6, "object_id": "1", "object_repr": "\u041a\u0440\u0443\u043f\u044b", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 5, "fields": {"action_time": "2020-11-24T11:50:59.871Z", "user": 1, "content_type": 6, "object_id": "2", "object_repr": "\u041c\u0430\u043a\u0430\u0440\u043e\u043d\u043d\u044b\u0435 \u0438\u0437\u0434\u0435\u043b\u0438\u044f", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 6, "fields": {"action_time": "2020-11-24T11:51:05.558Z", "user": 1, "content_type": 6, "object_id": "3", "object_repr": "\u041c\u043e\u043b\u043e\u0447\u043d\u044b\u0435 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u044b", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 7, "fields": {"action_time": "2020-11-24T12:04:15.496Z", "user": 1, "content_type": 7, "object_id": "1", "object_repr": "\u041f\u0448\u0435\u043d\u043e \u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041c\u0438\u0441\u0442\u0440\u0430\u043b\u044c", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 8, "fields": {"action_time": "2020-11-24T12:05:41.559Z", "user": 1, "content_type": 7, "object_id": "2", "object_repr": "\u041a\u0440\u0443\u043f\u0430 \u043c\u0430\u043d\u043d\u0430\u044f \u041c\u0438\u0441\u0442\u0440\u0430\u043b\u044c", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 9, "fields": {"action_time": "2020-11-24T12:06:58.871Z", "user": 1, "content_type": 7, "object_id": "3", "object_repr": "\u0421\u043f\u0430\u0433\u0435\u0442\u0442\u0438 Barilla Spaghetti \u21165", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 10, "fields": {"action_time": "2020-11-24T12:08:40.557Z", "user": 1, "content_type": 7, "object_id": "4", "object_repr": "\u041f\u0435\u043d\u043d\u0435 Barilla Penne Rigate", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 11, "fields": {"action_time": "2020-11-24T12:09:58.750Z", "user": 1, "content_type": 7, "object_id": "5", "object_repr": "\u0419\u043e\u0433\u0443\u0440\u0442 Epica \u0412\u0438\u0448\u043d\u044f \u0438 \u0447\u0435\u0440\u0435\u0448\u043d\u044f, 4,8 %", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 12, "fields": {"action_time": "2020-11-24T12:11:33.231Z", "user": 1, "content_type": 7, "object_id": "6", "object_repr": "\u0421\u044b\u0440 Dolce Granto, \u043f\u0430\u0440\u043c\u0435\u0437\u0430\u043d", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 13, "fields": {"action_time": "2020-11-24T12:14:49.585Z", "user": 1, "content_type": 7, "object_id": "7", "object_repr": "\u0410\u0439\u0440\u0430\u043d \u0433\u0430\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 14, "fields": {"action_time": "2020-11-24T12:16:49.358Z", "user": 1, "content_type": 8, "object_id": "1", "object_repr": "\u0415\u0433\u043e \u0432\u0435\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0437\u0430\u0432\u0442\u0440\u0430\u043a", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}, {"model": "admin.logentry", "pk": 15, "fields": {"action_time": "2020-11-24T12:18:53.841Z", "user": 1, "content_type": 8, "object_id": "2", "object_repr": "Viva Italia!", "action_flag": 1, "change_message": "[{\"added\": {}}]"}}]
+[
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "shop",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "shop",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "shop",
+    "model": "article"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "orders",
+    "model": "order"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "orders",
+    "model": "orderitem"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "users",
+    "model": "customuser"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "vrqbvwzj97prgg9yp2ccbjqyhz1xenbf",
+  "fields": {
+    "session_data": "NTI2ZTRjODgxNWZlZWMyMzMzZWY5MjkxOGU1ZjgyOTU0ZTQ4NjI1Mzp7Il9hdXRoX3VzZXJfaWQiOiIzIiwiX2F1dGhfdXNlcl9iYWNrZW5kIjoiZGphbmdvLmNvbnRyaWIuYXV0aC5iYWNrZW5kcy5Nb2RlbEJhY2tlbmQiLCJfYXV0aF91c2VyX2hhc2giOiIwMzUyMDkyNWQ5YmYzMjY0ZmZmNTg2NDE1MWM4NWNlZmYwNjA3NjU4IiwiY2FydCI6e319",
+    "expire_date": "2020-12-10T09:36:27.911Z"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 1,
+  "fields": {
+    "name": "\u041a\u0440\u0443\u043f\u044b",
+    "slug": "krupy"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 2,
+  "fields": {
+    "name": "\u041c\u0430\u043a\u0430\u0440\u043e\u043d\u043d\u044b\u0435 \u0438\u0437\u0434\u0435\u043b\u0438\u044f",
+    "slug": "makaronnye-izdeliya"
+  }
+},
+{
+  "model": "shop.category",
+  "pk": 3,
+  "fields": {
+    "name": "\u041c\u043e\u043b\u043e\u0447\u043d\u044b\u0435 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u044b",
+    "slug": "molochnye-produkty"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 1,
+  "fields": {
+    "category": 1,
+    "name": "\u041f\u0448\u0435\u043d\u043e \u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041c\u0438\u0441\u0442\u0440\u0430\u043b\u044c",
+    "slug": "psheno-zolotoe-mistral",
+    "image": "products/2020/11/24/\u0411\u0435\u0437_\u043d\u0430\u0437\u0432\u0430\u043d\u0438\u044f.jpg",
+    "description": "\u0417\u043e\u043b\u043e\u0442\u043e\u0435 \u043f\u0448\u0435\u043d\u043e \u041c\u0438\u0441\u0442\u0440\u0430\u043b\u044c \u043f\u043e\u043b\u0443\u0447\u0435\u043d\u043e \u0438\u0437 \u043e\u0442\u0431\u043e\u0440\u043d\u044b\u0445 \u0437\u0435\u0440\u0435\u043d \u043f\u0440\u043e\u0441\u0430, \u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u043f\u0440\u043e\u0445\u043e\u0434\u044f\u0442 \u043c\u043d\u043e\u0433\u043e\u0441\u0442\u0443\u043f\u0435\u043d\u0447\u0430\u0442\u0443\u044e \u043e\u0447\u0438\u0441\u0442\u043a\u0443. \u0418\u043c\u0435\u0435\u0442 \u043e\u0434\u043d\u043e\u0440\u043e\u0434\u043d\u044b\u0439 \u0441\u0432\u0435\u0442\u043b\u043e-\u0436\u0435\u043b\u0442\u044b\u0439 \u0446\u0432\u0435\u0442, \u043f\u0440\u0438\u044f\u0442\u043d\u044b\u0439 \u0430\u0440\u043e\u043c\u0430\u0442 \u0438 \u043d\u0435\u043f\u043e\u0432\u0442\u043e\u0440\u0438\u043c\u044b\u0439 \u0432\u043a\u0443\u0441.\r\n\r\n\u0417\u043e\u043b\u043e\u0442\u043e\u0435 \u043f\u0448\u0435\u043d\u043e \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u043e \u043f\u043e\u0434\u0445\u043e\u0434\u0438\u0442 \u0434\u043b\u044f \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043c\u043e\u043b\u043e\u0447\u043d\u043e\u0439 \u043a\u0430\u0448\u0438, \u0433\u0430\u0440\u043d\u0438\u0440\u043e\u0432 \u0438 \u0434\u0435\u0441\u0435\u0440\u0442\u043e\u0432. \u0418\u0437\u0432\u0435\u0441\u0442\u043d\u043e, \u0447\u0442\u043e \u0447\u0435\u043c \u044f\u0440\u0447\u0435 \u0446\u0432\u0435\u0442 \u043f\u0448\u0435\u043d\u0430, \u0442\u0435\u043c \u043e\u043d\u043e \u0432\u043a\u0443\u0441\u043d\u0435\u0435 \u0438 \u043f\u043e\u043b\u0435\u0437\u043d\u0435\u0435. \u041f\u0448\u0435\u043d\u043d\u0430\u044f \u043a\u0440\u0443\u043f\u0430 \u041c\u0438\u0441\u0442\u0440\u0430\u043b\u044c \u044f\u0440\u043a\u043e\u0439 \u0436\u0435\u043b\u0442\u043e\u0439 \u043e\u043a\u0440\u0430\u0441\u043a\u0438 - \u0446\u0435\u043d\u043d\u044b\u0439 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a \u043a\u043b\u0435\u0442\u0447\u0430\u0442\u043a\u0438 \u0438 \u043b\u0435\u0433\u043a\u043e\u0443\u0441\u0432\u0430\u0438\u0432\u0430\u0435\u043c\u044b\u0445 \u0440\u0430\u0441\u0442\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u0445 \u0431\u0435\u043b\u043a\u043e\u0432. \u041f\u0440\u0438 \u0432\u0430\u0440\u043a\u0435 \u0437\u0435\u0440\u043d\u0430 \u043f\u0440\u0438\u043e\u0431\u0440\u0435\u0442\u0430\u044e\u0442 \u043d\u0435\u0436\u043d\u043e-\u0436\u0435\u043b\u0442\u044b\u0439 \u043e\u0442\u0442\u0435\u043d\u043e\u043a \u0438 \u0441\u0442\u0430\u043d\u043e\u0432\u044f\u0442\u0441\u044f \u043c\u044f\u0433\u043a\u0438\u043c\u0438, \u0441\u043e\u0445\u0440\u0430\u043d\u044f\u044f \u0441\u0432\u043e\u044e \u0444\u043e\u0440\u043c\u0443.\r\n\r\n\u0423\u0432\u0430\u0436\u0430\u0435\u043c\u044b\u0435 \u043a\u043b\u0438\u0435\u043d\u0442\u044b! \u041e\u0431\u0440\u0430\u0449\u0430\u0435\u043c \u0432\u0430\u0448\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0442\u043e, \u0447\u0442\u043e \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0430 \u043c\u043e\u0436\u0435\u0442 \u0438\u043c\u0435\u0442\u044c \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0438\u0434\u043e\u0432 \u0434\u0438\u0437\u0430\u0439\u043d\u0430. \u041f\u043e\u0441\u0442\u0430\u0432\u043a\u0430 \u043e\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0432 \u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u0438 \u043e\u0442 \u043d\u0430\u043b\u0438\u0447\u0438\u044f \u043d\u0430 \u0441\u043a\u043b\u0430\u0434\u0435.\r\n\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f\r\n\u0412 \u0441\u0443\u0445\u043e\u043c \u043c\u0435\u0441\u0442\u0435",
+    "price": "117.00",
+    "available": true,
+    "created": "2020-11-24T12:04:15.494Z",
+    "updated": "2020-11-24T12:04:15.494Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 2,
+  "fields": {
+    "category": 1,
+    "name": "\u041a\u0440\u0443\u043f\u0430 \u043c\u0430\u043d\u043d\u0430\u044f \u041c\u0438\u0441\u0442\u0440\u0430\u043b\u044c",
+    "slug": "krupa-mannaya-mistral",
+    "image": "products/2020/11/24/2b797fe54ac2414ab59418042026b1a7.jpg",
+    "description": "\u041a\u0440\u0443\u043f\u0430 \u043c\u0430\u043d\u043d\u0430\u044f \u043d\u0435\u0436\u043d\u0430\u044f \u0438 \u0441\u043b\u0430\u0434\u043a\u043e\u0432\u0430\u0442\u0430\u044f \u043d\u0430 \u0432\u043a\u0443\u0441, \u043e\u043d\u0430 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u0435\u0442\u0441\u044f \u0434\u043b\u044f \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043c\u043e\u043b\u043e\u0447\u043d\u043e\u0439 \u043a\u0430\u0448\u0438, \u0437\u0430\u043f\u0435\u043a\u0430\u043d\u043e\u043a, \u0434\u0435\u0441\u0435\u0440\u0442\u043e\u0432, \u0430 \u0442\u0430\u043a\u0436\u0435 \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u043f\u0430\u043d\u0438\u0440\u043e\u0432\u043a\u0438.\r\n1. \u041f\u043e\u043c\u0435\u0441\u0442\u0438\u0442\u0435 \u043a\u0440\u0443\u043f\u0443 \u0432 \u043a\u0430\u0441\u0442\u0440\u044e\u043b\u044e \u0441 \u043a\u0438\u043f\u044f\u0449\u0438\u043c \u043c\u043e\u043b\u043e\u043a\u043e\u043c \u0432 \u0441\u043e\u043e\u0442\u043d\u043e\u0448\u0435\u043d\u0438\u0438 1:6.\r\n2. \u0412\u0430\u0440\u0438\u0442\u0435 \u043d\u0430 \u0443\u043c\u0435\u0440\u0435\u043d\u043d\u043e\u043c \u043e\u0433\u043d\u0435 2-3 \u043c\u0438\u043d\u0443\u0442\u044b \u0434\u043e \u0437\u0430\u0433\u0443\u0441\u0442\u0435\u043d\u0438\u044f, \u043d\u0435\u043f\u0440\u0435\u0440\u044b\u0432\u043d\u043e \u043f\u043e\u043c\u0435\u0448\u0438\u0432\u0430\u044f.\r\n3. \u0421\u043d\u0438\u043c\u0438\u0442\u0435 \u0441 \u043e\u0433\u043d\u044f \u0438 \u0434\u0430\u0439\u0442\u0435 \u043d\u0430\u0441\u0442\u043e\u044f\u0442\u044c\u0441\u044f 10-15 \u043c\u0438\u043d\u0443\u0442 \u0441 \u0437\u0430\u043a\u0440\u044b\u0442\u043e\u0439 \u043a\u0440\u044b\u0448\u043a\u043e\u0439.\r\n\r\n\r\n\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f\r\n\u0412 \u0441\u0443\u0445\u043e\u043c \u043f\u0440\u043e\u0445\u043b\u0430\u0434\u043d\u043e\u043c \u043c\u0435\u0441\u0442\u0435",
+    "price": "56.00",
+    "available": true,
+    "created": "2020-11-24T12:05:41.557Z",
+    "updated": "2020-11-24T12:05:41.557Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 3,
+  "fields": {
+    "category": 2,
+    "name": "\u0421\u043f\u0430\u0433\u0435\u0442\u0442\u0438 Barilla Spaghetti \u21165",
+    "slug": "spagetti-barilla-spaghetti-5",
+    "image": "products/2020/11/24/c0df48079c194d749de2310ffbc34c1b.jpg",
+    "description": "\u0421\u043f\u0430\u0433\u0435\u0442\u0442\u0438 \u21165 - \u0441\u0438\u043c\u0432\u043e\u043b \u0438\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u043e\u0439 \u043a\u0443\u0445\u043d\u0438, \u0431\u0435\u0437 \u043f\u0440\u0435\u0443\u0432\u0435\u043b\u0438\u0447\u0435\u043d\u0438\u044f \u043e\u0434\u0438\u043d \u0438\u0437 \u0441\u0430\u043c\u044b\u0445 \u0438\u0437\u0432\u0435\u0441\u0442\u043d\u044b\u0445 \u0432\u0438\u0434\u043e\u0432 \u043f\u0430\u0441\u0442\u044b. \u0421\u0432\u043e\u0435 \u043d\u0430\u0437\u0432\u0430\u043d\u0438\u0435 \u043f\u0430\u0441\u0442\u0430 \u043f\u043e\u043b\u0443\u0447\u0438\u043b\u0430 \u0437\u0430 \u0432\u043d\u0435\u0448\u043d\u0435\u0435 \u0441\u0445\u043e\u0434\u0441\u0442\u0432\u043e \u0441 \u0442\u043e\u043d\u043a\u0438\u043c \u0448\u043f\u0430\u0433\u0430\u0442\u043e\u043c (\u0443\u043c\u0435\u043d\u044c\u0448\u0438\u0442\u0435\u043b\u044c\u043d\u043e- \u043b\u0430\u0441\u043a\u0430\u0442\u0435\u043b\u044c\u043d\u0430\u044f \u0444\u043e\u0440\u043c\u0430 \u043e\u0442 \u0438\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u043e\u0433\u043e spago).\r\n\r\n\u0411\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u043e\u043f\u0442\u0438\u043c\u0430\u043b\u044c\u043d\u043e\u0439 \u0442\u043e\u043b\u0449\u0438\u043d\u0435, \u0421\u043f\u0430\u0433\u0435\u0442\u0442\u0438 \u21165 \u0441\u0447\u0438\u0442\u0430\u0435\u0442\u0441\u044f \u0443\u043d\u0438\u0432\u0435\u0440\u0441\u0430\u043b\u044c\u043d\u044b\u043c \u0432\u0438\u0434\u043e\u043c \u043f\u0430\u0441\u0442\u044b, \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u043e \u0441\u043e\u0447\u0435\u0442\u0430\u0435\u0442\u0441\u044f \u043a\u0430\u043a \u0441 \u0433\u0443\u0441\u0442\u044b\u043c\u0438 \u0442\u043e\u043c\u0430\u0442\u043d\u044b\u043c\u0438, \u0442\u0430\u043a \u0438 \u0441 \u043d\u0435\u0436\u043d\u044b\u043c\u0438 \u0441\u043b\u0438\u0432\u043e\u0447\u043d\u044b\u043c\u0438 \u0441\u043e\u0443\u0441\u0430\u043c\u0438.\r\n\r\n\u0423\u0432\u0430\u0436\u0430\u0435\u043c\u044b\u0435 \u043a\u043b\u0438\u0435\u043d\u0442\u044b! \u041e\u0431\u0440\u0430\u0449\u0430\u0435\u043c \u0432\u0430\u0448\u0435 \u0432\u043d\u0438\u043c\u0430\u043d\u0438\u0435 \u043d\u0430 \u0442\u043e, \u0447\u0442\u043e \u0443\u043f\u0430\u043a\u043e\u0432\u043a\u0430 \u043c\u043e\u0436\u0435\u0442 \u0438\u043c\u0435\u0442\u044c \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u0432\u0438\u0434\u043e\u0432 \u0434\u0438\u0437\u0430\u0439\u043d\u0430. \u041f\u043e\u0441\u0442\u0430\u0432\u043a\u0430 \u043e\u0441\u0443\u0449\u0435\u0441\u0442\u0432\u043b\u044f\u0435\u0442\u0441\u044f \u0432 \u0437\u0430\u0432\u0438\u0441\u0438\u043c\u043e\u0441\u0442\u0438 \u043e\u0442 \u043d\u0430\u043b\u0438\u0447\u0438\u044f \u043d\u0430 \u0441\u043a\u043b\u0430\u0434\u0435.\r\n\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f\r\n\u041f\u0440\u0438 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0435 \u0434\u043e +30`C, \u0441 \u043e\u0442\u043d\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0432\u043b\u0430\u0436\u043d\u043e\u0441\u0442\u044c\u044e \u0432\u043e\u0437\u0434\u0443\u0445\u0430 \u043d\u0435 \u0431\u043e\u043b\u0435\u0435 75%, \u0432 \u0441\u0443\u0445\u043e\u043c \u043f\u0440\u043e\u0445\u043b\u0430\u0434\u043d\u043e\u043c \u043c\u0435\u0441\u0442\u0435",
+    "price": "75.00",
+    "available": true,
+    "created": "2020-11-24T12:06:58.869Z",
+    "updated": "2020-11-24T12:06:58.869Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 4,
+  "fields": {
+    "category": 2,
+    "name": "\u041f\u0435\u043d\u043d\u0435 Barilla Penne Rigate",
+    "slug": "penne-barilla-penne-rigate",
+    "image": "products/2020/11/24/ca638f49393f4301be7d92d5afc85884.jpg",
+    "description": "\u0411\u043e\u043b\u044c\u0448\u043e\u0439 \u0434\u0438\u0430\u043c\u0435\u0442\u0440 \u0438 \u0440\u0435\u0431\u0440\u0438\u0441\u0442\u043e\u0441\u0442\u044c \u041f\u0435\u043d\u043d\u0435 \u0420\u0438\u0433\u0430\u0442\u0435 \u043f\u043e\u0437\u0432\u043e\u043b\u044f\u044e\u0442 \u0438\u043c \u043f\u043e\u043b\u043d\u043e\u0441\u0442\u044c\u044e \u043f\u0440\u043e\u043f\u0438\u0442\u0430\u0442\u044c\u0441\u044f \u0441\u043e\u0443\u0441\u043e\u043c! \u041f\u043e\u043f\u0440\u043e\u0431\u0443\u0439\u0442\u0435 \u043f\u0435\u043d\u043d\u0435 \u0441 \u043c\u044f\u0441\u043d\u044b\u043c\u0438 \u0438 \u043e\u0432\u043e\u0449\u043d\u044b\u043c\u0438 \u0441\u043e\u0443\u0441\u0430\u043c\u0438 \u0441 \u043a\u0443\u0441\u043e\u0447\u043a\u0430\u043c\u0438 \u043c\u044f\u0441\u0430 \u0438 \u043e\u0432\u043e\u0449\u0435\u0439.\r\n\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f\r\n\u041f\u0440\u0438 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0435 \u0434\u043e +30`C, \u0441 \u043e\u0442\u043d\u043e\u0441\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0439 \u0432\u043b\u0430\u0436\u043d\u043e\u0441\u0442\u044c\u044e \u0432\u043e\u0437\u0434\u0443\u0445\u0430 \u043d\u0435 \u0431\u043e\u043b\u0435\u0435 75%, \u0432 \u0441\u0443\u0445\u043e\u043c \u043f\u0440\u043e\u0445\u043b\u0430\u0434\u043d\u043e\u043c \u043c\u0435\u0441\u0442\u0435",
+    "price": "86.00",
+    "available": true,
+    "created": "2020-11-24T12:08:40.555Z",
+    "updated": "2020-11-24T12:08:40.555Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 5,
+  "fields": {
+    "category": 3,
+    "name": "\u0419\u043e\u0433\u0443\u0440\u0442 Epica \u0412\u0438\u0448\u043d\u044f \u0438 \u0447\u0435\u0440\u0435\u0448\u043d\u044f, 4,8 %",
+    "slug": "jogurt-epica-vishnya-i-chereshnya-48",
+    "image": "products/2020/11/24/3312235H.jpg",
+    "description": "\u0419\u043e\u0433\u0443\u0440\u0442 Epica \u043d\u0430\u0442\u0443\u0440\u0430\u043b\u044c\u043d\u044b\u0439 \u0441 \u0432\u0438\u0448\u043d\u0435\u0439 \u0438 \u0447\u0435\u0440\u0435\u0448\u043d\u0435\u0439 4,8% 130\u0433. \u041c\u0430\u0441\u0441\u043e\u0432\u0430\u044f \u0434\u043e\u043b\u044f \u0436\u0438\u0440\u0430 4,8%. \u0422\u043e\u043b\u044c\u043a\u043e \u043d\u0430\u0442\u0443\u0440\u0430\u043b\u044c\u043d\u044b\u0435 \u0438\u043d\u0433\u0440\u0435\u0434\u0438\u0435\u043d\u0442\u044b \u0432\u044b\u0441\u043e\u043a\u043e\u0433\u043e \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0430.\r\n\r\n\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f\r\n2\u00b0C \u0434\u043e 6\u00b0C",
+    "price": "45.00",
+    "available": true,
+    "created": "2020-11-24T12:09:58.749Z",
+    "updated": "2020-11-24T12:09:58.749Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 6,
+  "fields": {
+    "category": 3,
+    "name": "\u0421\u044b\u0440 Dolce Granto, \u043f\u0430\u0440\u043c\u0435\u0437\u0430\u043d",
+    "slug": "syr-dolce-granto-parmezan",
+    "image": "products/2020/11/24/3380383H.jpg",
+    "description": "\"\u041a\u043e\u0440\u043e\u043b\u044c \u0441\u044b\u0440\u043e\u0432 \u0438 \u0441\u044b\u0440 \u043a\u043e\u0440\u043e\u043b\u0435\u0439\". 270 \u0433 \u2013 \u0438\u0434\u0435\u0430\u043b\u044c\u043d\u044b\u0439 \u0432\u0435\u0441 \u0434\u043b\u044f \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u043b\u044e\u0431\u0438\u043c\u044b\u0445 \u0431\u043b\u044e\u0434 \u0434\u043e\u043c\u0430. \u041f\u0430\u0440\u043c\u0435\u0437\u0430\u043d Dolce Granto \u043f\u0440\u0438\u0434\u0430\u0441\u0442 \u0431\u043b\u044e\u0434\u0430\u043c \u0438 \u043d\u0430\u043f\u0438\u0442\u043a\u0430\u043c \u043d\u043e\u0432\u043e\u0435 \u0437\u0432\u0443\u0447\u0430\u043d\u0438\u0435.\r\n\r\n\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f\r\n\u041f\u0440\u0438 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0435 \u043e\u0442 2 \u0434\u043e 6\u0421.",
+    "price": "390.00",
+    "available": true,
+    "created": "2020-11-24T12:11:33.230Z",
+    "updated": "2020-11-24T12:11:33.230Z"
+  }
+},
+{
+  "model": "shop.product",
+  "pk": 7,
+  "fields": {
+    "category": 3,
+    "name": "\u0410\u0439\u0440\u0430\u043d \u0433\u0430\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+    "slug": "ajran-gazirovannyj",
+    "image": "products/2020/11/24/3373858H.jpg",
+    "description": "\u0410\u0439\u0440\u0430\u043d - \u0440\u043e\u0434\u043e\u043c \u044d\u0442\u043e\u0442 \u043d\u0430\u043f\u0438\u0442\u043e\u043a \u0438\u0437 \u041a\u0430\u0431\u0430\u0440\u0434\u0438\u043d\u043e-\u0411\u0430\u043b\u043a\u0430\u0440\u0438\u0438 \u0438 \u0427\u0435\u0440\u043a\u0435\u0441\u0441\u0438\u0438. \u0415\u0433\u043e \u0448\u0438\u0440\u043e\u043a\u043e \u043f\u0440\u0438\u043c\u0435\u043d\u044f\u044e\u0442 \u0432 \u043d\u0430\u0446\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u043e\u0439 \u043a\u0443\u0445\u043d\u0435 \u0441\u0440\u0435\u0434\u043d\u0435\u0430\u0437\u0438\u0430\u0442\u0441\u043a\u0438\u0445 \u0438 \u043a\u0430\u0432\u043a\u0430\u0437\u0441\u043a\u0438\u0445 \u043d\u0430\u0440\u043e\u0434\u043e\u0432.\r\n\u0418\u0437\u0432\u0435\u0441\u0442\u0435\u043d \u043d\u0430\u043f\u0438\u0442\u043e\u043a \u0435\u0449\u0435 \u0441 5-2 \u0432\u0435\u043a\u043e\u0432 \u0434\u043e \u043d\u0430\u0448\u0435\u0439 \u044d\u0440\u044b, \u043a\u043e\u0433\u0434\u0430 \u043e\u043d \u043e\u0441\u043e\u0431\u0435\u043d\u043d\u043e \u043b\u044e\u0431\u0438\u043c \u0431\u044b\u043b \u0436\u0438\u0442\u0435\u043b\u044f\u043c\u0438 \u0434\u0440\u0435\u0432\u043d\u0435\u0433\u0440\u0435\u0447\u0435\u0441\u043a\u043e\u0439 \u041a\u0435\u0440\u043a\u0438\u043d\u0438\u0442\u0438\u0434\u044b. \u0421\u043e \u0432\u0440\u0435\u043c\u0435\u043d\u0435\u043c \u0440\u0435\u0446\u0435\u043f\u0442 \u043f\u0440\u0438\u0433\u043e\u0442\u043e\u0432\u043b\u0435\u043d\u0438\u044f \u0430\u0439\u0440\u0430\u043d\u0430 \u043f\u043e\u043f\u0430\u043b \u043a \u043a\u043e\u0447\u0435\u0432\u044b\u043c \u043f\u043b\u0435\u043c\u0435\u043d\u0430\u043c \u0441\u043a\u0438\u0444\u0430\u043c - \u044f\u0440\u044b\u043c \u0432\u0440\u0430\u0433\u0430\u043c \u0433\u0440\u0435\u043a\u043e\u0432.\r\n\u0410\u0439\u0440\u0430\u043d \u043f\u0440\u0435\u0438\u043c\u0443\u0449\u0435\u0441\u0442\u0432\u0435\u043d\u043d\u043e \u0438\u0441\u043f\u043e\u043b\u044c\u0437\u0443\u044e\u0442 \u0432 \u043a\u0430\u0447\u0435\u0441\u0442\u0432\u0435 \u043f\u0440\u043e\u0445\u043b\u0430\u0434\u0438\u0442\u0435\u043b\u044c\u043d\u043e\u0433\u043e \u043d\u0430\u043f\u0438\u0442\u043a\u0430 \u0432 \u043b\u0435\u0442\u043d\u0438\u0439 \u0437\u043d\u043e\u0439, \u0434\u043b\u044f \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u044f \u0430\u043f\u043f\u0435\u0442\u0438\u0442\u0430, \u0438 \u043a\u0430\u043a \u043e\u0441\u043d\u043e\u0432\u0443 \u0434\u043b\u044f \u0445\u043e\u043b\u043e\u0434\u043d\u044b\u0445 \u0441\u0443\u043f\u043e\u0432. \u042d\u0442\u043e \u043d\u0438\u0437\u043a\u043e\u043a\u0430\u043b\u043e\u0440\u0438\u0439\u043d\u044b\u0439 \u043d\u0430\u043f\u0438\u0442\u043e\u043a, \u043d\u043e \u043f\u0440\u0438 \u044d\u0442\u043e\u043c \u043e\u043d \u043e\u0431\u043b\u0430\u0434\u0430\u0435\u0442 \u0443\u0434\u0438\u0432\u0438\u0442\u0435\u043b\u044c\u043d\u044b\u043c \u0441\u0432\u043e\u0439\u0441\u0442\u0432\u043e\u043c \u043d\u0430\u0441\u044b\u0449\u0430\u0442\u044c \u0438 \u043f\u0440\u0438\u0434\u0430\u0432\u0430\u0442\u044c \u0441\u0438\u043b\u044b \u043e\u0440\u0433\u0430\u043d\u0438\u0437\u043c\u0443.\r\n\r\n\u0411\u0435\u043b\u043a\u0438 1,4 \u0433/100 \u0433, \u0436\u0438\u0440\u044b 1,5 \u0433/100 \u0433, \u0443\u0433\u043b\u0435\u0432\u043e\u0434\u044b 1 \u0433/100 \u0433.\r\n\u0423\u0441\u043b\u043e\u0432\u0438\u044f \u0445\u0440\u0430\u043d\u0435\u043d\u0438\u044f\r\n\u0425\u0440\u0430\u043d\u0438\u0442\u044c \u043f\u0440\u0438 \u0442\u0435\u043c\u043f\u0435\u0440\u0430\u0442\u0443\u0440\u0435 \u043e\u0442 +2\u00b0\u0421 \u0434\u043e +18\u00b0\u0421, \u043f\u043e\u0441\u043b\u0435 \u0432\u0441\u043a\u0440\u044b\u0442\u0438\u044f \u043e\u0442 +2\u00b0\u0421 \u0434\u043e +6\u00b0\u0421 \u043d\u0435 \u0431\u043e\u043b\u0435\u0435 2-\u0445 \u0441\u0443\u0442\u043e\u043a",
+    "price": "63.00",
+    "available": true,
+    "created": "2020-11-24T12:14:49.584Z",
+    "updated": "2020-11-24T12:14:49.584Z"
+  }
+},
+{
+  "model": "shop.article",
+  "pk": 1,
+  "fields": {
+    "name": "\u0415\u0433\u043e \u0432\u0435\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0437\u0430\u0432\u0442\u0440\u0430\u043a",
+    "text": "\u0417\u0430\u0301\u0432\u0442\u0440\u0430\u043a \u2014 \u043f\u0435\u0440\u0432\u044b\u0439 \u0434\u043d\u0435\u0432\u043d\u043e\u0439 \u043f\u0440\u0438\u0451\u043c \u043f\u0438\u0449\u0438, \u043a\u0430\u043a \u043f\u0440\u0430\u0432\u0438\u043b\u043e \u2014 \u0432 \u043f\u0435\u0440\u0438\u043e\u0434 \u043e\u0442 \u0440\u0430\u0441\u0441\u0432\u0435\u0442\u0430 \u0434\u043e \u043f\u043e\u043b\u0443\u0434\u043d\u044f. \u041d\u0435\u043a\u043e\u0442\u043e\u0440\u044b\u0435 \u044d\u043a\u0441\u043f\u0435\u0440\u0442\u044b \u043f\u043e \u043f\u0438\u0442\u0430\u043d\u0438\u044e \u0441\u0447\u0438\u0442\u0430\u044e\u0442, \u0447\u0442\u043e \u0437\u0430\u0432\u0442\u0440\u0430\u043a \u2014 \u0441\u0430\u043c\u044b\u0439 \u0432\u0430\u0436\u043d\u044b\u0439 \u043f\u0440\u0438\u0451\u043c \u043f\u0438\u0449\u0438, \u0435\u0433\u043e \u043f\u0440\u043e\u043f\u0443\u0441\u043a \u0443\u0432\u0435\u043b\u0438\u0447\u0438\u0432\u0430\u0435\u0442 \u0448\u0430\u043d\u0441\u044b \u0440\u0430\u0437\u0432\u0438\u0442\u0438\u044f \u043e\u0436\u0438\u0440\u0435\u043d\u0438\u044f, \u0441\u0430\u0445\u0430\u0440\u043d\u043e\u0433\u043e \u0434\u0438\u0430\u0431\u0435\u0442\u0430 \u0438 \u043c\u043e\u0436\u0435\u0442 \u043f\u0440\u0438\u0432\u0435\u0441\u0442\u0438 \u043a \u0441\u0435\u0440\u0434\u0435\u0447\u043d\u043e\u043c\u0443 \u043f\u0440\u0438\u0441\u0442\u0443\u043f\u0443.",
+    "created": "2020-11-24T12:16:49.352Z",
+    "image": "articles/500_F_213801383_3JJxaQmPRhHUyIp5TWKAKYtmZQwpOSUH.jpg",
+    "products": [
+      5,
+      2,
+      1
+    ]
+  }
+},
+{
+  "model": "shop.article",
+  "pk": 2,
+  "fields": {
+    "name": "Viva Italia!",
+    "text": "\u0418\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u0430\u044f \u043a\u0443\u0445\u043d\u044f \u2014 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u0430\u044f \u043a\u0443\u0445\u043d\u044f \u0418\u0442\u0430\u043b\u0438\u0438, \u0440\u0430\u0441\u043f\u0440\u043e\u0441\u0442\u0440\u0430\u043d\u0451\u043d\u043d\u0430\u044f \u0438 \u043f\u043e\u043f\u0443\u043b\u044f\u0440\u043d\u0430\u044f \u0432\u043e \u0432\u0441\u0451\u043c \u043c\u0438\u0440\u0435, \u0431\u043b\u0430\u0433\u043e\u0434\u0430\u0440\u044f \u0442\u0430\u043a\u0438\u043c \u0431\u043b\u044e\u0434\u0430\u043c, \u043a\u0430\u043a \u043f\u0438\u0446\u0446\u0430 \u0438 \u0441\u043f\u0430\u0433\u0435\u0442\u0442\u0438. \u041e\u043d\u0430 \u043e\u0447\u0435\u043d\u044c \u0440\u0430\u0437\u043d\u043e\u043e\u0431\u0440\u0430\u0437\u043d\u0430 \u0438 \u0440\u0435\u0433\u0438\u043e\u043d\u0430\u043b\u044c\u043d\u0430, \u0432 \u043a\u0430\u0436\u0434\u043e\u043c \u0440\u0435\u0433\u0438\u043e\u043d\u0435 \u0435\u0441\u0442\u044c \u0441\u0432\u043e\u0438 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u043e\u043d\u043d\u044b\u0435 \u0431\u043b\u044e\u0434\u0430.  \u0412 \u043e\u0441\u043d\u043e\u0432\u0435 \u0438\u0442\u0430\u043b\u044c\u044f\u043d\u0441\u043a\u043e\u0439 \u043a\u0443\u0445\u043d\u0438 \u043b\u0435\u0436\u0430\u0442 \u0438\u0441\u0442\u043e\u0440\u0438\u0447\u0435\u0441\u043a\u0438 \u0441\u043b\u043e\u0436\u0438\u0432\u0448\u0438\u0435\u0441\u044f \u043c\u043d\u043e\u0433\u043e\u0432\u0435\u043a\u043e\u0432\u044b\u0435 \u0442\u0440\u0430\u0434\u0438\u0446\u0438\u0438 \u0441 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u043d\u044b\u043c\u0438 \u0432\u043b\u0438\u044f\u043d\u0438\u044f\u043c\u0438 \u0440\u0438\u043c\u043b\u044f\u043d, \u0433\u0440\u0435\u043a\u043e\u0432, \u043b\u0430\u043d\u0433\u043e\u0431\u0430\u0440\u0434\u043e\u0432, \u0430\u0440\u0430\u0431\u043e\u0432, \u0438 \u043f\u0440\u043e\u0447\u0438\u0445 \u043d\u0430\u0440\u043e\u0434\u043e\u0432, \u043a\u043e\u0433\u0434\u0430-\u043b\u0438\u0431\u043e \u043d\u0430\u0441\u0435\u043b\u044f\u0432\u0448\u0438\u0445 \u0418\u0442\u0430\u043b\u0438\u044e \u0438\u043b\u0438 \u043e\u043a\u0430\u0437\u044b\u0432\u0430\u0432\u0448\u0438\u0445 \u0432\u043b\u0438\u044f\u043d\u0438\u0435 \u043d\u0430 \u0444\u043e\u0440\u043c\u0438\u0440\u043e\u0432\u0430\u043d\u0438\u0435 \u0435\u0451 \u043a\u0443\u043b\u044c\u0442\u0443\u0440\u044b.",
+    "created": "2020-11-24T12:18:53.835Z",
+    "image": "articles/ItalianskayaPasta005_SfYeoA2.jpg",
+    "products": [
+      4,
+      3,
+      6
+    ]
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 1,
+  "fields": {
+    "first_name": "\u041a\u0430\u0440\u043b\u043e\u0441",
+    "last_name": "\u0421\u0430\u043d\u0442\u0430\u043d\u0430",
+    "email": "guitarhero@rock.rap",
+    "address": "\u0411\u0443\u0442\u043e\u0432\u043e",
+    "postal_code": "123456",
+    "city": "\u041a\u0430\u0433\u0430\u043b\u044b\u043c",
+    "created": "2020-11-24T12:20:26.753Z",
+    "updated": "2020-11-24T12:20:26.753Z",
+    "paid": false
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 2,
+  "fields": {
+    "first_name": "\u041a\u0430\u0440\u043b\u043e\u0441",
+    "last_name": "\u0421\u0430\u043d\u0442\u0430\u043d\u0430",
+    "email": "guitarhero@rock.rap",
+    "address": "\u0411\u0443\u0442\u043e\u0432\u043e",
+    "postal_code": "123456",
+    "city": "\u041a\u0430\u0433\u0430\u043b\u044b\u043c",
+    "created": "2020-11-24T12:21:01.164Z",
+    "updated": "2020-11-24T12:21:01.164Z",
+    "paid": false
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 3,
+  "fields": {
+    "first_name": "\u041a\u0430\u0440\u043b\u043e\u0441",
+    "last_name": "\u0421\u0430\u043d\u0442\u0430\u043d\u0430",
+    "email": "guitarhero@rock.rap",
+    "address": "\u0411\u0443\u0442\u043e\u0432\u043e",
+    "postal_code": "123456",
+    "city": "\u041a\u0430\u0433\u0430\u043b\u044b\u043c",
+    "created": "2020-11-24T12:21:54.533Z",
+    "updated": "2020-11-24T12:21:54.533Z",
+    "paid": false
+  }
+},
+{
+  "model": "orders.order",
+  "pk": 4,
+  "fields": {
+    "first_name": "\u0446\u0430\u0443\u0443\u0446\u0430\u0446",
+    "last_name": "\u0446\u0430\u0443\u0430\u0443\u0446\u0430",
+    "email": "wfeef@wef.wef",
+    "address": "wefwefwefwe",
+    "postal_code": "23434234324",
+    "city": "zxc",
+    "created": "2020-11-26T09:36:22.576Z",
+    "updated": "2020-11-26T09:36:22.576Z",
+    "paid": false
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 1,
+  "fields": {
+    "order": 1,
+    "product": 4,
+    "price": "86.00",
+    "quantity": 12
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 2,
+  "fields": {
+    "order": 2,
+    "product": 4,
+    "price": "86.00",
+    "quantity": 12
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 3,
+  "fields": {
+    "order": 3,
+    "product": 4,
+    "price": "86.00",
+    "quantity": 12
+  }
+},
+{
+  "model": "orders.orderitem",
+  "pk": 4,
+  "fields": {
+    "order": 4,
+    "product": 1,
+    "price": "117.00",
+    "quantity": 1
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add category",
+    "content_type": 6,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change category",
+    "content_type": 6,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete category",
+    "content_type": 6,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view category",
+    "content_type": 6,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add product",
+    "content_type": 7,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change product",
+    "content_type": 7,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete product",
+    "content_type": 7,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view product",
+    "content_type": 7,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add \u0421\u0442\u0430\u0442\u044c\u044f",
+    "content_type": 8,
+    "codename": "add_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change \u0421\u0442\u0430\u0442\u044c\u044f",
+    "content_type": 8,
+    "codename": "change_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete \u0421\u0442\u0430\u0442\u044c\u044f",
+    "content_type": 8,
+    "codename": "delete_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view \u0421\u0442\u0430\u0442\u044c\u044f",
+    "content_type": 8,
+    "codename": "view_article"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add order",
+    "content_type": 9,
+    "codename": "add_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change order",
+    "content_type": 9,
+    "codename": "change_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete order",
+    "content_type": 9,
+    "codename": "delete_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view order",
+    "content_type": 9,
+    "codename": "view_order"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add order item",
+    "content_type": 10,
+    "codename": "add_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change order item",
+    "content_type": 10,
+    "codename": "change_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete order item",
+    "content_type": 10,
+    "codename": "delete_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view order item",
+    "content_type": 10,
+    "codename": "view_orderitem"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 11,
+    "codename": "add_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 11,
+    "codename": "change_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 11,
+    "codename": "delete_customuser"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 11,
+    "codename": "view_customuser"
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$MO7fwttGwjQB$YY3SxBM6emASVv18HOL9YiZIZZhwrWPoGJn33k8kif4=",
+    "last_login": "2020-11-24T11:50:23.806Z",
+    "is_superuser": true,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2020-11-23T13:22:28.095Z",
+    "email": "admin@admin.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 2,
+  "fields": {
+    "password": "user",
+    "last_login": null,
+    "is_superuser": false,
+    "first_name": "user",
+    "last_name": "user",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-11-23T13:33:29Z",
+    "email": "user@user.com",
+    "groups": [],
+    "user_permissions": [
+      36,
+      32,
+      24,
+      28
+    ]
+  }
+},
+{
+  "model": "users.customuser",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$180000$mL44Ty0S3mGt$yU4EHI2Dxo0f85UQTecOyNfLiZNAQY98ATSbSf196vQ=",
+    "last_login": "2020-11-26T09:35:39.009Z",
+    "is_superuser": false,
+    "first_name": "",
+    "last_name": "",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2020-11-23T13:56:59Z",
+    "email": "user1@user.com",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2020-11-23T13:35:34.869Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "2",
+    "object_repr": "user@user.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2020-11-23T13:56:59.549Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "user1@user.com",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2020-11-23T13:57:12.830Z",
+    "user": 1,
+    "content_type": 11,
+    "object_id": "3",
+    "object_repr": "user1@user.com",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2020-11-24T11:50:39.816Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "1",
+    "object_repr": "\u041a\u0440\u0443\u043f\u044b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2020-11-24T11:50:59.871Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "2",
+    "object_repr": "\u041c\u0430\u043a\u0430\u0440\u043e\u043d\u043d\u044b\u0435 \u0438\u0437\u0434\u0435\u043b\u0438\u044f",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2020-11-24T11:51:05.558Z",
+    "user": 1,
+    "content_type": 6,
+    "object_id": "3",
+    "object_repr": "\u041c\u043e\u043b\u043e\u0447\u043d\u044b\u0435 \u043f\u0440\u043e\u0434\u0443\u043a\u0442\u044b",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2020-11-24T12:04:15.496Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "\u041f\u0448\u0435\u043d\u043e \u0417\u041e\u041b\u041e\u0422\u041e\u0415 \u041c\u0438\u0441\u0442\u0440\u0430\u043b\u044c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2020-11-24T12:05:41.559Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "2",
+    "object_repr": "\u041a\u0440\u0443\u043f\u0430 \u043c\u0430\u043d\u043d\u0430\u044f \u041c\u0438\u0441\u0442\u0440\u0430\u043b\u044c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2020-11-24T12:06:58.871Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "3",
+    "object_repr": "\u0421\u043f\u0430\u0433\u0435\u0442\u0442\u0438 Barilla Spaghetti \u21165",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2020-11-24T12:08:40.557Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "4",
+    "object_repr": "\u041f\u0435\u043d\u043d\u0435 Barilla Penne Rigate",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2020-11-24T12:09:58.750Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "5",
+    "object_repr": "\u0419\u043e\u0433\u0443\u0440\u0442 Epica \u0412\u0438\u0448\u043d\u044f \u0438 \u0447\u0435\u0440\u0435\u0448\u043d\u044f, 4,8 %",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2020-11-24T12:11:33.231Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "6",
+    "object_repr": "\u0421\u044b\u0440 Dolce Granto, \u043f\u0430\u0440\u043c\u0435\u0437\u0430\u043d",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2020-11-24T12:14:49.585Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "7",
+    "object_repr": "\u0410\u0439\u0440\u0430\u043d \u0433\u0430\u0437\u0438\u0440\u043e\u0432\u0430\u043d\u043d\u044b\u0439",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2020-11-24T12:16:49.358Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "\u0415\u0433\u043e \u0432\u0435\u043b\u0438\u0447\u0435\u0441\u0442\u0432\u043e \u0437\u0430\u0432\u0442\u0440\u0430\u043a",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2020-11-24T12:18:53.841Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Viva Italia!",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+}
+]
