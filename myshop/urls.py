@@ -16,7 +16,7 @@ urlpatterns = [
     path('', include(accounts)),
 
     # REST API
-    path('shop-api/', include('API.urls', 'api_'))
+    path('shop-api/', include('API.urls', 'API'))
 
 ]
 

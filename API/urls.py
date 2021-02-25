@@ -1,8 +1,9 @@
 from django.urls import path
-from API.views import api_detail_category_view
+from API.views import *
 
 app_name = 'API'
 
 urlpatterns = [
-    path('<slug>/', api_detail_category_view, name='category_detail')
+    path('<id>/', api_detail_category_view, name='category_detail'),
+    path('', api_all_category_view, name='category_detail'),
 ]
