@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'cart',
     'orders',
     'API',
-    'djangorestframework'
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
