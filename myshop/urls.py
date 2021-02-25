@@ -14,6 +14,10 @@ urlpatterns = [
     path('', views.IndexArticle.as_view(), name='index'),
     path('register/', register, name='register'),
     path('', include(accounts)),
+
+    # REST API
+    path('shop-api/', include('API.urls', 'api_'))
+
 ]
 
 if settings.DEBUG:
